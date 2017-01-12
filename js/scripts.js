@@ -29,8 +29,9 @@ $(document).ready(function() {
       }
 
     } else {
-      $("#age").addClass("has-error");
-      $("#gender").addClass("has-error");
+      // $("#age").addClass("has-error");
+      // $("#gender").addClass("has-error");
+      alert("please answer us");
     }
 
   });
