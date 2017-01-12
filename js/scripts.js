@@ -7,13 +7,25 @@ $(document).ready(function() {
     if (userAge && userGenderPreference) {
 
       if (userAge > 30 && userGenderPreference === "female") {
+        $(".emma").hide();
+        $(".sean").hide();
+        $(".zac").hide();
         $(".meryl").show();
-      } else if () {
-
-      } else if () {
-
-      } else {
-
+      } else if (userAge < 30 && userGenderPreference === "female") {
+        $(".meryl").hide();
+        $(".sean").hide();
+        $(".zac").hide();
+        $(".emma").show();
+      } else if (userAge > 30 && userGenderPreference === "male") {
+        $(".emma").hide();
+        $(".meryl").hide();
+        $(".zac").hide();
+        $(".sean").show();
+      } else if (userAge < 30 && userGenderPreference === "male") {
+        $(".emma").hide();
+        $(".sean").hide();
+        $(".meryl").hide();
+        $(".zac").show();
       }
 
     } else {

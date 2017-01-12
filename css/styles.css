@@ -1,3 +1,15 @@
-.results {
+.results .meryl {
+  display: none;
+}
+
+.results .emma {
+  display: none;
+}
+
+.results .sean {
+  display: none;
+}
+
+.results .zac {
   display: none;
 }
